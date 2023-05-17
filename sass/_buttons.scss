@@ -1,0 +1,42 @@
+.btn-primary {
+    background-color: #fff;
+    color: $veryDarkCyan;
+    padding: 15px 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    transition: .3s ease-in-out;
+    font-family: $mainFont;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover {
+        background-color: $pink;
+    }
+    &--secondary {
+        background-color: $pink;
+        color: #fff;
+        padding: 15px 50px;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+        transition: .3s ease-in-out;
+        font-family: $mainFont;
+        font-weight: 700;
+        cursor: pointer;
+        &:hover {
+            background-color: $pinkHover;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .btn-primary {
+    padding: 5px 25px;
+    &--secondary {
+        display: block;
+        margin: 0 auto;
+    }
+    }
+}
