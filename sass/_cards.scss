@@ -1,9 +1,6 @@
-.content-wrapper {
+.cards-wrapper {
     max-width: 1440px;
     margin: 0 auto;
-}
-
-.cards {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -25,16 +22,17 @@
         flex-direction: column;
         justify-content: center;
         flex-basis: 40%;
-        &__title {
-            font-size: 2rem;       
-        }
-        &__desc {
-            color: $grayishBlue;
-            margin: 10px 0;
-        }
+    }
+    &__content-title {
+        font-size: 2rem;       
+    }
+    &__content-desc {
+        color: $grayishBlue;
+        margin: 10px 0;
     }
 }
 
+// To change order in card 
 .change {
     order: 1;
 }
@@ -56,13 +54,13 @@
             padding: 0;
             margin: 0 20px;
             order: 1;
-            &__title {
-                font-size: 1.4rem;       
-            }
-            &__desc {
-                text-align: center;
-                font-size: 14px;
-            }
+        }
+        &__content-title {
+            font-size: 1.4rem;       
+        }
+        &__content-desc {
+            text-align: center;
+            font-size: 14px;
         }
     }
 }

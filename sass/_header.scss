@@ -21,20 +21,20 @@
     &__left {
         flex-basis: 40%;
         margin-top: 80px;
-        &__header {
-            margin: 20px 0;
-        }
-        &__txt {
-            margin: 20px 0;
-        }
     } 
+    &__left-header {
+        margin: 20px 0;
+    }
+    &__left-txt {
+        margin: 20px 0;
+    }
     &__right {
         flex-basis: 50%;
         display: flex;
         justify-content: flex-end;
-        &__img {
-            width: 90%;
-        }
+    }
+    &__right-img {
+        width: 90%;
     }
 }
 
@@ -55,31 +55,31 @@
     }
     
     .content {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-    &__left {
-        flex-basis: 100%;
-        margin-top: 20px;
-        &__header {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        &__left {
+            flex-basis: 100%;
+            margin-top: 20px;
+        }
+        &__left-header {
             margin: 20px 0;
             font-size: 1.6rem;
             text-align: center;
         }
-        &__txt {
+        &__left-txt {
             text-align: center;
             margin-top: 20px;
         }
-    } 
-    &__right {
-        flex-basis: 100%;
-        display: flex;
-        justify-content: center;
-        &__img {
+        &__right {
+            flex-basis: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        &__right-img {
             width: 90%;
             margin-top: 50px;
             margin-bottom: 30px;
         }
-    }
     }
 }

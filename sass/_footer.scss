@@ -1,0 +1,27 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px 200px;
+    background-color: $veryDarkCyan;
+    padding: 50px 100px;
+    min-height: 500px;
+    &__logo {
+        grid-area: 1/1/2/-1;
+        background-color: hsl(192, 93%, 22%);
+        display: flex;
+        align-items: center;
+    }
+    &__about {
+        display: flex;
+    }
+    &__about-icon {
+        flex-basis: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__about-txt {
+        color: #fff;
+        flex-basis: 85%;
+    }
+}

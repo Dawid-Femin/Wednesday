@@ -4,6 +4,8 @@
 @import "buttons";
 @import "header";
 @import "cards";
+@import "callToAction";
+@import "footer";
 
 * {
     margin: 0;
@@ -24,6 +26,7 @@ body {
 h2 {
     font-size: 3rem;
     font-family: $headingFont!important;
+    color: $veryDarkCyan;
 }
 
 h3 {
@@ -38,9 +41,4 @@ h3 {
         text-align: center;
         margin: 20px 0;
     }
-    
-    // h3 {
-    //     font-size: 2rem;
-    //     font-family: $headingFont;
-    // }
 }
