@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
 
 @import "variable";
-@import "header";
 @import "buttons";
+@import "header";
+@import "cards";
 
 * {
     margin: 0;
@@ -28,4 +29,18 @@ h2 {
 h3 {
     font-size: 2rem;
     font-family: $headingFont;
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 1.6rem;
+        font-family: $headingFont!important;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    // h3 {
+    //     font-size: 2rem;
+    //     font-family: $headingFont;
+    // }
 }
